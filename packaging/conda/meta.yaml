@@ -13,7 +13,7 @@ source:
 
 requirements:
     build:
-        - compilers
+        - compilers  # [win]
         - {{ compiler("cxx") }}
         - {{ cdt('mesa-libgl-devel') }}  # [linux]
         - msinttypes  # [win]
